@@ -1,0 +1,254 @@
+@import "compass/css3";
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+	overflow-y: scroll; 
+  overflow-x: scroll;
+}
+
+body {
+  background: #008080;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #008080;
+  font-weight: 500;
+}
+
+li {
+  font-family: Kaisei Tokumin;
+  float: left;
+}
+
+.login {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #ffff;
+  text-align: center;
+  padding: 0.875rem 1rem;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #61C0BF;
+  text-decoration: underline;
+}
+
+.main {
+  background-color: #EAF6F6;
+  padding: 1.5rem;
+  width: 55rem;
+  height: 100rem;
+  margin: 70px auto 20px auto;
+  border-radius: 4px;
+}
+
+h1 {
+  text-align: center;
+  color: #008080;
+  font-weight: 400;
+  margin:0 0 2rem;
+  font-size: 2.5rem;
+  font-family: Kaisei Tokumin;
+  text-shadow: 0.5px 0.5px #004d4d;
+  padding-top: 1.5rem;
+}
+
+h2 {
+  text-align: left;
+  color: #e6e6e6;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin: 0;
+}
+
+.book-1 {
+  background-color: #006666;
+  width: 25rem;
+  height: 11.5rem;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  line-height: 1.5;
+  padding: 0.625rem;
+  border-radius: 3px;
+  box-shadow: 0 1.5px 4px 1.5px;
+}
+
+.book-2 {
+  background-color: #006666;
+  width: 25rem;
+  height: 11.5rem;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  line-height: 1.5;
+  padding: 0.625rem;
+  border-radius: 3px;
+  box-shadow: 0 1.5px 4px 1.5px;
+}
+
+.top-row {
+  height: 25%;
+  padding: 1.5rem;
+}
+
+.book-click {
+  font-family: Assistant;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.book-click:link {
+  text-decoration: none;
+}
+
+.book-click:hover {
+  text-decoration: underline;
+}
+
+.book-click:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#title-click {
+  text-align: left;
+  font-weight: 450;
+  font-size: 1.12rem;
+  text-decoration: none;
+}
+
+#title-click:link {
+  text-decoration: none;
+}
+
+#title-click:hover {
+  text-decoration: underline;
+}
+
+#title-click:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.book-image{
+  width: 7rem;
+  height: 10rem;
+  float: left;
+  margin-right: 1.25rem;
+}
+
+.synopsis {
+  color: #e6e6e6;
+  font-weight: lighter;
+  text-align: justify;
+  font-size: 0.9rem;
+}
+
+span {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.borrow-button {
+  display:block;
+  width: 200px;
+  height: 37px;
+  text-align: center;
+  border:0;
+  outline:none;
+  border-radius:2px;
+  box-shadow: 0 1px 2px 1px #004466;
+  margin-left: 165px;
+  margin-top: 2.4rem;
+  padding: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: Kaisei Tokumin;
+  text-transform:uppercase;
+  text-decoration: none;
+  letter-spacing:.05em;
+  background-color: #5ebaba;
+  color: #ffffff;
+  transition:all.5s ease;
+  -webkit-appearance: none;
+}
+
+.borrow-button:hover {
+  background-color: #94d1d1;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.borrow-button:focus {
+  background-color: #5ebaba;
+}
+
+.links{
+  margin: 0rem auto 0rem auto;
+  background-color: #008080;
+  padding: 10px auto 10px auto;
+}
+
+.reddit{
+  width: 8%;
+  padding: 1rem;
+  margin-left: 38%;
+}
+
+.twitter{
+  width: 8%;
+  padding: 1rem;
+}
+
+.insta{
+  width: 8%;
+  padding: 1rem;
+  margin-right: 20px;
+}
+
+.copyright{
+  font-size: x-small;
+  color: #5ebaba;
+  margin-bottom: 0rem;
+  text-align: center;
+}
+
+.privacy-policy {
+  color:#0f868a;
+}
+
+.privacy-policy:visited {
+  text-decoration: none;
+  color:#0f868a;
+}
+
+.privacy-policy:link {
+  text-decoration: none;
+  color:#0f868a;
+  font-size: x-small;
+}
+
+.privacy-policy:hover {
+  text-decoration: underline;
+}
