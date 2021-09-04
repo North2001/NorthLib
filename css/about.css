@@ -1,0 +1,211 @@
+@import "compass/css3";
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+	overflow-y: scroll; 
+  overflow-x: scroll;
+}
+
+body {
+  background: #008080;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: +1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #008080;
+  font-weight: 500;
+}
+
+li {
+  font-family: Kaisei Tokumin;
+  float: left;
+}
+
+.login {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #ffff;
+  text-align: center;
+  padding: 0.875rem 1rem;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #61C0BF;
+  text-decoration: underline;
+}
+
+.main {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  width: 55rem;
+  height: 85rem;
+  margin: 4.375rem auto 1.25rem auto;
+  border-radius: 0.25rem;
+}
+
+h1 {
+  text-align: center;
+  color: #008080;
+  font-weight: 400;
+  margin:0 0 2rem;
+  font-size: 3rem;
+  font-family: Kaisei Tokumin;
+  text-shadow: 0.5px 0.5px #004d4d;
+  padding-top: 1.5rem;
+}
+
+h2 {
+  text-align: left;
+  color: #e6e6e6;
+  text-decoration: none;
+  margin: 0;
+}
+
+.main-text {
+  text-align: center;
+  font-family: Assistant;
+  margin: 0.625rem auto 1.875rem auto;
+  width: 40rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.logo {
+  width: 25%;
+  align-self: center;
+  margin: 0 auto 1rem auto;
+  position: relative;
+  left: 5.5rem;
+}
+
+.brickwork {
+  background-color: #ffffff;
+  width: 55rem;
+  margin: 3rem auto 3rem auto;
+  position: relative;
+  right: 1.5rem;
+}
+
+hr{
+  border-style: dotted none none none;
+  width: 25%;
+  border-color: gray; 
+  border-width: 0.5rem;
+  margin-bottom: 0rem;
+}
+
+.book-1 {
+  background-color: #006666;
+  width: 25rem;
+  height: 12rem;
+  margin-right: 0.625rem;
+  margin-bottom: 1.25rem;
+  text-align: left;
+  line-height: 1.5;
+  padding: 0.625rem;
+  border-radius: 3px;
+  box-shadow: 0 1.5px 4px 1.5px;
+}
+
+.book-2 {
+  background-color: #006666;
+  width: 25rem;
+  height: 12rem;
+  margin-left: 1.25rem;
+  margin-bottom: 1.25rem;
+  text-align: left;
+  line-height: 1.5;
+  padding: 0.625rem;
+  border-radius: 3px;
+  box-shadow: 0 1.5px 4px 1.5px;
+}
+
+.button-app-store {
+  margin: 0 0.625rem 0.3125rem;
+  width: 12.5rem;
+  height: 3.75rem;
+  display: block;
+  float: right;
+}
+
+.button-play-store {
+  margin: 0 0.625rem 0.3125rem 0.625rem;
+  width: 12.5rem;
+  height: 3.75rem;
+  display: block;
+  float: left;
+}
+
+.synopsis {
+  color: #e6e6e6;
+  font-weight: lighter;
+  text-align: justify;
+  font-size: 0.9rem;
+}
+
+.links{
+  margin: 0rem auto 0rem auto;
+  background-color: #008080;
+  padding: 0.625rem auto 0.625rem auto;
+}
+
+.reddit{
+  width: 8%;
+  padding: 1rem;
+  margin-left: 38%;
+}
+
+.twitter{
+  width: 8%;
+  padding: 1rem;
+}
+
+.insta{
+  width: 8%;
+  padding: 1rem;
+  margin-right: 1.25rem;
+}
+
+.copyright{
+  font-size: x-small;
+  color: #5ebaba;
+  margin-bottom: 0rem;
+  text-align: center;
+}
+
+.privacy-policy {
+  color:#5ebaba;
+}
+
+.privacy-policy:visited {
+  text-decoration: none;
+  color:#5ebaba;
+}
+
+.privacy-policy:link {
+  text-decoration: none;
+  color:#5ebaba;
+  font-size: x-small;
+}
+
+.privacy-policy:hover {
+  text-decoration: underline;
+}
